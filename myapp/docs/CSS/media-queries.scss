@@ -1,0 +1,67 @@
+@media all and (max-width:720px){
+  .app-container--720vw{
+    width:100% !important;
+  }
+  .app-title{
+    width:80% !important;
+    margin:auto;
+  }
+  .app-flexbox{
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    width:80% !important;
+  }
+  .app-resultWrapper{
+    padding-bottom: 33px;
+  }
+
+  .app-button{
+    margin:auto;
+    width:100% !important;
+    margin-bottom:10px;
+  }
+  .app-aboutNewClient{
+    display:block !important;
+    text-align: center !important
+  }
+  .app-info{
+    width:80% !important;
+  }
+  .app-determiteButtonWrapper{
+    width:80% !important;
+    padding-bottom:80px !important;
+  }
+  .app-buttonCalc{
+    transform: translateY(-25.5px);
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 0 !important;
+    display: block;
+  }
+  .app-result{
+    width:201px !important;
+    margin:auto !important;
+    float:inherit !important;
+    padding-left: 0 !important;
+    display:block !important;
+    margin-bottom:25px !important;
+
+  }
+  .app-buttonWraper{
+      display:flex !important;
+  }
+  .app-rangeCurrentValue{
+    display:none  !important;
+  }
+  .app-wraperRange{
+    width:80% !important;
+  }
+  .app-hr{
+    width:100% !important;
+  }
+  .app-container{
+    top: 25% !important;
+    left:0% !important;
+    transform: translateY(-25%) !important;
+  }
+}
